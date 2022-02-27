@@ -1,8 +1,8 @@
-﻿using LinqLab2;
+﻿using LinqLab3;
 using System;
 using System.Linq;
 
-namespace LinqLab
+namespace LinqLab3
 {
 
     class Program
@@ -10,7 +10,7 @@ namespace LinqLab
         //just do the part "for nums"
         static void Main(string[] args)
         {
-            
+
 
 
 
@@ -81,7 +81,7 @@ namespace LinqLab
             }
             //Find all students whose name starts with a vowel
             var vowel = studentList.Where(x => x.Name.StartsWith("A") || x.Name.StartsWith("E") || x.Name.StartsWith("I") || x.Name.StartsWith("O") || x.Name.StartsWith("U")).ToList();
-            foreach (Student x in vowel) 
+            foreach (Student x in vowel)
             {
                 Console.WriteLine(x.Name);
             }

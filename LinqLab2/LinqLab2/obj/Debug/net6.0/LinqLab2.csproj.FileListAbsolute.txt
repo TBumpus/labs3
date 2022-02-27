@@ -1,0 +1,15 @@
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\bin\Debug\net6.0\LinqLab2.exe
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\bin\Debug\net6.0\LinqLab2.deps.json
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\bin\Debug\net6.0\LinqLab2.runtimeconfig.json
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\bin\Debug\net6.0\LinqLab2.dll
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\bin\Debug\net6.0\ref\LinqLab2.dll
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\bin\Debug\net6.0\LinqLab2.pdb
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.csproj.AssemblyReference.cache
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.AssemblyInfoInputs.cache
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.AssemblyInfo.cs
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.csproj.CoreCompileInputs.cache
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.dll
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\ref\LinqLab2.dll
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.pdb
+C:\Users\tbump\labs2\LinqLab2\LinqLab2\obj\Debug\net6.0\LinqLab2.genruntimeconfig.cache
