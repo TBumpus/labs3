@@ -30,8 +30,7 @@ namespace LinqLab3
 
 
             //Find all students age of 21 and over
-            //var test = studentList.Sum(x => x.Age);
-            //Console.WriteLine(test);
+           
             var age21AndUp = studentList.Where(x => x.Age >= 21).ToList();
             foreach (Student x in age21AndUp)
             {
