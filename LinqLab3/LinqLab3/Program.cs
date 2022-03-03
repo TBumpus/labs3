@@ -31,7 +31,7 @@ namespace LinqLab3
 
             //Find all students age of 21 and over
            
-            var age21AndUp = studentList.Where(x => x.Age >= 21).ToList();
+            var age21AndUp = studentList.Where(x => x.Age >= 21).ToList(); //firstordefault works to get the first while tolist does multiple then do a age21AndUp.Name
             foreach (Student x in age21AndUp)
             {
                 Console.WriteLine(x.Name);
@@ -39,8 +39,8 @@ namespace LinqLab3
 
 
             //find the oldest student
-            var oldestStudent = studentList.Max(x => x.Age);
-            var newOldestStudent = studentList.Where(x => x.Age == oldestStudent).ToList();
+            //var oldestStudent = studentList.Max(x => x.Age);
+            var newOldestStudent = studentList.Where(x => x.Age == studentList.Max(x => x.Age)).ToList();// OrderBy() then selecting the first would also take the top age
             foreach (Student x in newOldestStudent)
             {
                 Console.WriteLine(x.Name);
@@ -57,8 +57,8 @@ namespace LinqLab3
 
             //Find the oldest student under age 25
             var oldestUnder25 = studentList.Where(x => x.Age < 25).ToList();
-            var newOldest = oldestUnder25.Max(x => x.Age);
-            var nameOldest = studentList.Where(x => x.Age == newOldest).ToList();
+            //var newOldest = oldestUnder25.Max(x => x.Age);
+            var nameOldest = studentList.Where(x => x.Age == oldestUnder25.Max(x => x.Age)).ToList();
 
             foreach (Student x in nameOldest)
             {
@@ -79,7 +79,9 @@ namespace LinqLab3
                 Console.WriteLine(x.Name);
             }
             //Find all students whose name starts with a vowel
-            var vowel = studentList.Where(x => x.Name.StartsWith("A") || x.Name.StartsWith("E") || x.Name.StartsWith("I") || x.Name.StartsWith("O") || x.Name.StartsWith("U")).ToList();
+
+            //x.Name[0] means to take the first letter of the name
+            var vowel = studentList.Where(x => x.Name.ToLower().StartsWith("a") || x.Name.ToLower().StartsWith("e") || x.Name.ToLower().StartsWith("i") || x.Name.ToLower().StartsWith("o") || x.Name.ToLower().StartsWith("u")).ToList();
             foreach (Student x in vowel)
             {
                 Console.WriteLine(x.Name);

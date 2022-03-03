@@ -1,0 +1,15 @@
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\bin\Debug\net6.0\MovieDatabaseLab.exe
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\bin\Debug\net6.0\MovieDatabaseLab.deps.json
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\bin\Debug\net6.0\MovieDatabaseLab.runtimeconfig.json
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\bin\Debug\net6.0\MovieDatabaseLab.dll
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\bin\Debug\net6.0\ref\MovieDatabaseLab.dll
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\bin\Debug\net6.0\MovieDatabaseLab.pdb
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.csproj.AssemblyReference.cache
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.AssemblyInfoInputs.cache
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.AssemblyInfo.cs
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.csproj.CoreCompileInputs.cache
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.dll
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\ref\MovieDatabaseLab.dll
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.pdb
+C:\Users\tbump\labs2\MovieDatabaseLab\MovieDatabaseLab\obj\Debug\net6.0\MovieDatabaseLab.genruntimeconfig.cache
