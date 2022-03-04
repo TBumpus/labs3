@@ -36,44 +36,59 @@ namespace MovieDatabaseLab
                 Console.WriteLine("Please enter a category of movie");
                 var userCategory = Console.ReadLine().ToLower();
 
-                    if (userCategory.Contains("scifi"))
-                    {
-                        var scifiMovies = movieList.Where(x => x.Category == "scifi").ToList();
-                        foreach (Movie x in scifiMovies)
-                        {
-                            Console.WriteLine(x.Title);
-                        }
-                    }
-                    else if (userCategory.Contains("horror"))
-                    {
-                        var horrorMovies = movieList.Where(x => x.Category == "horror").ToList();
-                        foreach (Movie x in horrorMovies)
-                        {
-                            Console.WriteLine(x.Title);
-                        }
-                    }
-                    else if (userCategory.Contains("drama"))
-                    {
-                        var dramaMovies = movieList.Where(x => x.Category == "drama").ToList();
-                        foreach (Movie x in dramaMovies)
-                        {
-                            Console.WriteLine(x.Title);
-                        }
-                    }
-                    else if (userCategory.Contains("animated"))
-                    {
-                        var animatedMovies = movieList.Where(x => x.Category == "animated").ToList();
-                        foreach (Movie x in animatedMovies)
-                        {
-                            Console.WriteLine(x.Title);
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("that is not a movie genre in our application. Please enter scifi, horror, drama, or animated");
-                        Console.WriteLine();
-                        continue;
-                    }
+                List<Movie> selectedList = movieList.Where(x => x.GetCategory() == userCategory).ToList();
+                foreach(Movie movie in selectedList)
+                {
+                    Console.WriteLine(movie.GetTitle());
+                }
+
+                //*********************************************************************
+                //    if (userCategory.Contains("scifi"))
+                //    {
+                //        var scifiMovies = movieList.Where(x => x.Category == "scifi").ToList();
+                //        foreach (Movie x in scifiMovies)
+                //        {
+                //            Console.WriteLine(x.Title);
+                //        }
+                //    }
+                //    else if (userCategory.Contains("horror"))
+                //    {
+                //        var horrorMovies = movieList.Where(x => x.Category == "horror").ToList();
+                //        foreach (Movie x in horrorMovies)
+                //        {
+                //            Console.WriteLine(x.Title);
+                //        }
+                //    }
+                //    else if (userCategory.Contains("drama"))
+                //    {
+                //        var dramaMovies = movieList.Where(x => x.Category == "drama").ToList();
+                //        foreach (Movie x in dramaMovies)
+                //        {
+                //            Console.WriteLine(x.Title);
+                //        }
+                //    }
+                //    else if (userCategory.Contains("animated"))
+                //    {
+                //        var animatedMovies = movieList.Where(x => x.Category == "animated").ToList();
+                //        foreach (Movie x in animatedMovies)
+                //        {
+                //            Console.WriteLine(x.Title);
+                //        }
+                //    }
+                //    else
+                //    {
+                //        Console.WriteLine("that is not a movie genre in our application. Please enter scifi, horror, drama, or animated");
+                //        Console.WriteLine();
+                //        continue;
+                //    }
+                //************************************************************************************************************
+                
+
+
+
+
+
+
 
                 Console.WriteLine("Would you like to continue? (y/n)");
                 repeat = Console.ReadLine().ToLower();

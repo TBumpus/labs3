@@ -6,18 +6,29 @@ using System.Threading.Tasks;
 
 namespace MovieDatabaseLab
 {
-    internal class Movie
+    public class Movie
     {
 
-        public string Title { get; set; }
-        public string Category { get; set; }
+        private string _Title; //{ get; set; }
+        private string _Category; //{ get; set; }
 
-        public Movie(string movieTitle, string movieCategory)
+        public Movie(string title, string category)
         {
-            Title = movieTitle;
-            Category = movieCategory;
+            _Title = title;
+            _Category = category;
 
         }
+
+        public string GetTitle()
+        {
+            return _Title;
+        }
+
+        public string GetCategory()
+        {
+            return _Category;
+        }
+
 
     }
 }
