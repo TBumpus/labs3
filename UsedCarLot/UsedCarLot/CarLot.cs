@@ -26,7 +26,7 @@ namespace UsedCarLot
 
 
 
-        public void AddCar(/*Car userCar*/) // should take a car as an argument
+        public void AddCar() 
         {
             Console.WriteLine("Please enter a make: ");
             string userMake = Console.ReadLine();
