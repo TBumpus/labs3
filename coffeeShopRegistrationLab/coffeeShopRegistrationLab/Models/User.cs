@@ -25,5 +25,7 @@ namespace coffeeShopRegistrationLab.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
+        //public bool IsPremiumMember { get; set; }
+
     }
 }

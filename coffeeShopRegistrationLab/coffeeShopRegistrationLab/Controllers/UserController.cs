@@ -54,7 +54,7 @@ namespace coffeeShopRegistrationLab.Controllers
             {
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Summary", user);
             }
             return View(user);
         }
@@ -134,6 +134,11 @@ namespace coffeeShopRegistrationLab.Controllers
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Summary(User user)
+        {
+            return View(user);
         }
     }
 }
