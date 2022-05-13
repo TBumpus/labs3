@@ -54,7 +54,7 @@ namespace coffeeShopRegistrationLab.Controllers
             {
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Summary", user);
+                return RedirectToAction("Summary", user); //or redirect to nameof(index())
             }
             return View(user);
         }
