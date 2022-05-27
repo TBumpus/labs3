@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tbump\\source\\Unit7\\OMDBLab\\OMDBLab\\OMDBLab.csproj",
+      "projectUniqueName": "C:\\Users\\tbump\\labs2\\OMDBLab\\OMDBLab\\OMDBLab.csproj",
       "projectName": "OMDBLab",
-      "projectPath": "C:\\Users\\tbump\\source\\Unit7\\OMDBLab\\OMDBLab\\OMDBLab.csproj",
+      "projectPath": "C:\\Users\\tbump\\labs2\\OMDBLab\\OMDBLab\\OMDBLab.csproj",
       "packagesPath": "C:\\Users\\tbump\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tbump\\source\\Unit7\\OMDBLab\\OMDBLab\\obj\\",
+      "outputPath": "C:\\Users\\tbump\\labs2\\OMDBLab\\OMDBLab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tbump\\AppData\\Roaming\\NuGet\\NuGet.Config",
